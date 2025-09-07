@@ -2,10 +2,11 @@ import { nav } from "../config/nav.config"
 import { BsCurrencyDollar } from "react-icons/bs";
 import BurgerLogo from "../assets/BurgerLogo.png"
 
+
 export const Header = () => {
-    return <header className="py-[40px] pl-[350px] pr-[350px] text-lg text-white">
+    return <header className="py-[30px] pl-[350px] pr-[350px] text-lg text-white mt-5">
         <div className="flex justify-between gap-[20px] items-center">           
-            <a href="#?" className="w-[150px]">
+            <a href="#?" className="w-[160px]">
                 <img src={BurgerLogo} />
             </a>
             <nav className="flex items-center space-x-[70px]">
